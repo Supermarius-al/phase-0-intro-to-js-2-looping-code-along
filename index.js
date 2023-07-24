@@ -25,11 +25,10 @@ function writeCards(names, eventName) {
   return thankYouCard;
 }
 
-writeCards(["Guadalupe", "Ollie", "Aki"], "surprise");
-
-function countDown(number) {
-  while (number >= 0) {
-    console.log(number);
-    number--;
+function countDown(i) {
+  i = 10;
+  while (i >= 0) {
+    console.log(i);
+    i--;
   }
 }
